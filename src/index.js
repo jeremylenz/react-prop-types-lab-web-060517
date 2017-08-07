@@ -1,14 +1,15 @@
-import React from 'react';
+// import React from 'react';
 import ReactDOM from 'react-dom';
+// import PropTypes from 'prop-types';
 
-import Product from './components/Product';
+import Product from './components/Product.js';
 
 ReactDOM.render(
-  <Product 
-    name="Dunder Mifflin" 
-    producer="PaperCo" 
-    color="white" 
-    weight={210} 
+  <Product
+    name="Dunder Mifflin"
+    producer="PaperCo"
+    color="white"
+    weight={210}
   />,
   document.getElementById('root')
 );
